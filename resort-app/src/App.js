@@ -1,11 +1,20 @@
 import React from "react";
-// import logo from "./logo.svg";
 import "./App.css";
+
+import Home from "./pages/Home";
+import Rooms from "./pages/Rooms";
+import SingleRoom from "./pages/SingleRoom";
+import Error from "./pages/Error";
 
 function App() {
 	return (
 		<>
-			<h1>Hello World</h1>
+			<h1>
+				<Home></Home>
+				<Rooms></Rooms>
+				<SingleRoom></SingleRoom>
+				<Error></Error>
+			</h1>
 		</>
 	);
 }
